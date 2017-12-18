@@ -68,6 +68,9 @@ public class Atendente {
 					terceira.dispose();
 					int quantidade = Tela.listaItens.get(0).getQuantidade();
 					quantidade = quantidade - 1;
+					if(quantidade < 0){
+						System.exit(0);
+					}
 					Tela.listaItens.get(0).setQuantidade(quantidade);
 					PrimeiraProduto.botaoPesquisa = false;
 					SegundoProduto.botaoPedido = false;

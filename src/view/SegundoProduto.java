@@ -95,7 +95,7 @@ public class SegundoProduto extends javax.swing.JFrame {
     	botaoPedido = true;
     }  
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
-    	
+    	System.exit(0);
     }  
     
     public static void main(String args[]) {
